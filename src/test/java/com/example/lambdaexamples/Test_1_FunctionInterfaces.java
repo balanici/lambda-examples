@@ -1,16 +1,12 @@
 package com.example.lambdaexamples;
 
-import com.example.lambdaexamples.ex1_basics.BACheckActive;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import com.example.lambdaexamples.ex1_basics.BACheckAmountAvailable;
 import com.example.lambdaexamples.ex1_basics.BATrait;
 import com.example.lambdaexamples.ex1_basics.BankAccount;
-import com.example.lambdaexamples.utils.BAConstants;
-import org.junit.jupiter.api.Test;
-
 import java.math.BigDecimal;
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
 
 public class Test_1_FunctionInterfaces {
 
